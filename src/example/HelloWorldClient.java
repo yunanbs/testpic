@@ -13,6 +13,7 @@ import java.io.FileOutputStream;
 public class HelloWorldClient {
   public static void main(String[] argv) {
       try {
+//          测试git
           GetDataImplServiceLocator service = new GetDataImplServiceLocator();
           IGetData client = service.getGetDataImplPort();
           User uu  = new User();
